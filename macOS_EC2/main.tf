@@ -12,7 +12,7 @@ resource "aws_instance" "macos_instance" {
     Name = "My macOS Instance"
   }
 
-  key_name = "mykey" # Replace with the name of your EC2 key pair
+  key_name = "mykey" 
 
   user_data = <<-EOF
               #!/bin/bash
